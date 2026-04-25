@@ -1,0 +1,13 @@
+XTerm*background: black
+XTerm*foreground: white
+XTerm*selectToClipboard: true
+XTerm*enableSendEvents: true
+XTerm*metaSendsEscape: true
+XTerm*saveLines: 100
+XTerm*faceName: Monospace
+XTerm*font: fixed
+XTerm*faceSize: 14
+XTerm*vt100.translations: #override \
+    Ctrl <Key>equal:     larger-vt-font() \n\
+    Ctrl <Key>minus: smaller-vt-font() \n\
+    Ctrl <Key>KP_0:       set-vt-font(d)

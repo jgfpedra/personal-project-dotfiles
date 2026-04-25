@@ -1,0 +1,12 @@
+[user]
+	email = j248349@dac.unicamp.br
+	name = jgfpedra
+[pull]
+	ff = only
+[init]
+	defaultBranch = main
+[core]
+	symlinks = true
+	editor = nvim
+[credential]
+	helper = store

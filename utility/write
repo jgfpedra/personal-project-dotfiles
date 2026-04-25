@@ -1,0 +1,9 @@
+#!/bin/bash
+# Smart write launcher: GUI app if no args, system write if args
+if [ $# -eq 0 ]; then
+    # No arguments - launch GUI Write app
+    setsid /home/jp/.local/share/Write/Write &
+else
+    # Has arguments - call system write command
+    /usr/bin/write "$@"
+fi
